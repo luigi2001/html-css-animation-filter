@@ -45,3 +45,17 @@
 }
 
 /*fine esercizio 4*/
+
+/*inizio esercizio 5*/
+
+.ex-5-square{
+    transition: all 1s;
+}
+
+.ex-5-square:hover{
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+
+/*fine esercizio 5*/

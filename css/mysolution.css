@@ -136,3 +136,27 @@
 }
 
 /*fine esercizio 11*/
+
+/*inizio esercizio 12*/
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: bordo1 2s linear;
+}
+
+@keyframes bordo1{
+    0% {left: 10%;}
+    50% {left: 80%;}
+    100% {left: 10%;}
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bordo2 2s linear;
+}
+
+@keyframes bordo2{
+    0% {right: 10%;}
+    50% {right: 80%;}
+    100% {right: 10%;}
+}
+
+/*fine esercizio 12*/

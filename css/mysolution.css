@@ -114,11 +114,25 @@
 /*inizio esercizio 10*/
 
 .ex-10-icon{
-    animation: circle 1s linear infinite;
+    animation: circle1 1s linear infinite;
 }
 
-@keyframes circle{
+@keyframes circle1{
     0% {transform: rotate(1turn);}
 }
 
 /*fine esercizio 10*/
+
+/*inizio esercizio 11*/
+
+.ex-11-icon:hover{
+    animation: circle2 2s linear;
+}
+
+@keyframes circle2{
+    0% {transform: rotate(0);}
+    50% {transform: rotate(270deg);}
+    100%{transform: rotate(0);}
+}
+
+/*fine esercizio 11*/

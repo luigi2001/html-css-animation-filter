@@ -79,3 +79,16 @@
 }
 
 /*fine esercizio 7*/
+
+/*inizio esercizio 8*/
+
+.ex-8-img{
+    transition: 2s;
+}
+
+.ex-8-img:hover{
+    filter: grayscale(.6) sepia(.8);
+    border-radius: 15px;
+}
+
+/*fine esercizio 8*/

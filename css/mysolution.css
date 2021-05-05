@@ -21,3 +21,15 @@
 }
 
 /*fine esercizio 2*/
+
+/*inizio esercizio 3*/
+
+.ex-3-square{
+    transition: border-radius 0.5s;
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+/*fine esercizio 3*/

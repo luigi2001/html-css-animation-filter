@@ -92,3 +92,17 @@
 }
 
 /*fine esercizio 8*/
+
+/*inizio esercizio 9*/
+
+.ex-9-img{
+    transition: 2s;
+}
+
+.ex-9-img:hover{
+    filter: sepia(1) grayscale(.5);
+    border-radius: 15px;
+    transform: scale(1.5);
+}
+
+/*fine esercizio 9*/
